@@ -7,6 +7,8 @@ set(C_STANDARD 99)
 set(CXX_STANDARD 11)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -ggdb")
+set(CMAKE_BUILD_TYPE Debug)
 
 enable_testing()
 
