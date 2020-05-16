@@ -4,7 +4,7 @@ set(This GoogleDemo)
 project(${This})
 
 set(C_STANDARD 99)
-set(CXX_STANDARD 11)
+set(CXX_STANDARD 17)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O0 -ggdb")
@@ -16,6 +16,6 @@ include_directories("${CMAKE_SOURCE_DIR}/inc"
     "${CMAKE_SOURCE_DIR}/../googletest/googletest/include/"
     "${CMAKE_SOURCE_DIR}/../googletest/googlemock/include/")
 
-#add_subdirectory(../googletest build)
+add_subdirectory(../googletest build)
 add_subdirectory(src)
 add_subdirectory(test)

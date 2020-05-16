@@ -33,3 +33,6 @@
 
 #build folder
 project_template/build/*
+Part2_Vectors/build/*
+Part2_Vectors_Practise/build/*
+googletest/
