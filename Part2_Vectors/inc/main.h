@@ -5,4 +5,6 @@
 #include <string>
 #include <vector>
 
+enum States { kEmpty = 0, kObstacle };
+
 #endif

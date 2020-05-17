@@ -1,7 +1,6 @@
 {
     "version": "0.2.0",
     "configurations": [
-    
         {
             "name": "(gdb) Launch",
             "type": "cppdbg",
@@ -9,12 +8,11 @@
             // Resolved by CMake Tools:
             "program": "${command:cmake.launchTargetPath}",
             "args": [],
-            "stopAtEntry": false,
+            "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
-            "environment": [
-            ],
-            "externalConsole": true,
-            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
