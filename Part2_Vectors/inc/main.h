@@ -7,4 +7,6 @@
 
 enum States { kEmpty = 0, kObstacle };
 
+using Board = std::vector<std::vector<States>>;
+
 #endif

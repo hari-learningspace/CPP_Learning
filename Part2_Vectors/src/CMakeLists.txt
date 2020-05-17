@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
 set(This mainApp)
-set(SOURCES main.cpp)
+
+file(GLOB SOURCES *.cpp)
 
 include_directories()
       
