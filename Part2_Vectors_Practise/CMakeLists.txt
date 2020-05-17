@@ -16,6 +16,6 @@ include_directories("${CMAKE_SOURCE_DIR}/inc"
     "${CMAKE_SOURCE_DIR}/../googletest/googletest/include/"
     "${CMAKE_SOURCE_DIR}/../googletest/googlemock/include/")
 
-add_subdirectory(../googletest build)
+#add_subdirectory(../googletest build)
 add_subdirectory(src)
 add_subdirectory(test)
