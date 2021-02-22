@@ -1,0 +1,29 @@
+#References
+Reference is another name given to the variable 
+int &j = i --> Here J is the reference of i
+changing the value either using i or j will update the same memory location
+
+#Pointers
+variables that stored memory address and through the value stored in the memory address can be accessed
+
+#Reference vs Pointers
+if the & appears on left hand side of equation - then it is Reference
+if it appears on right hand side or before the already declared variable - then it is pointer(address)
+
+References are generally easier and safer than pointers. As a decent rule of thumb, references should be used in place of pointers when possible.
+
+However, there are times when it is not possible to use references. One example is object initialization. You might like one object to store a reference to another object. However, if the other object is not yet available when the first object is created, then the first object will need to use a pointer, not a reference, since a reference cannot be null. The reference could only be initialized once the other object is created.
+
+#Maps
+1. Unordered Maps
+2.Iterators
+
+
+#inheritance
+using existing class to define new classes - the child or derived class will contain the public atributes/method of parent class
+
+#new Key word
+The new operator allocates memory on the "heap" for a new Car. 
+
+#This Keyword
+It is possible to make this explicit in C++ by using the this pointer, which points to the current class

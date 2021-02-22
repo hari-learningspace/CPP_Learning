@@ -1,0 +1,21 @@
+int, float - language datatypes
+struct, class - user defined datatypes
+
+struct - containes, access_specifiers - private and public, default access_specifiers is public
+class - default access_specifiers is private
+        setter and getter function - for private variables
+        invariants/limit - conditions on the input variables
+
+Encapsulation and Abstraction
+
+Constructors and Default Constructors
+
+Scope Resolution and Namespace
+1. Namespace allow variables and functions to group it together
+2. Scope Resolution allow us to identify the variables or method related object/Namespace
+
+Intializer list --> directly assign the value to variable of class during creation
+Mutators/Setter Function --> Copies the Value to the variable of class during creation. 
+                             if an invariants are involved it better to use mutators/Setter functions
+
+                             n fact, initialization lists ensure that member variables are initialized before the object is created. This is why class member variables can be declared const, but only if the member variable is initialized through an initialization list. Trying to initialize a const class member within the body of the constructor will not work.
